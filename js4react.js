@@ -74,4 +74,18 @@ const person3 = {
 
    let age = 10
    let name = age>10 ? "pedro" : "juan";
+
+
+   const dicperson = {
+    name: 'Carlos',
+    age: 25,
+    city: 'Madrid'
+   }
    
+   const perName = dicperson.name
+
+   const per2 = {...dicperson, country: 'Spain'}; // same as dicperson but changing country property
+   
+   const names = ["Pedro", "Juan", "Maria"];
+
+   const names2 = [...names, "Luis"]; // same as names but adding "Luis" at the end
