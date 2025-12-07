@@ -89,3 +89,19 @@ const person3 = {
    const names = ["Pedro", "Juan", "Maria"];
 
    const names2 = [...names, "Luis"]; // same as names but adding "Luis" at the end
+
+  //map,filter,reduce to manipulate arrays
+  names.map((name)=>{  //same as for each
+    console.log(name);
+    return name + "1";
+  });
+
+  names3=[...names, "Pedro", "Pedro"]
+
+  names3.filter((name)=>{
+    return name != "Pedro"
+  })
+
+  const totalAge = names3.reduce((total, name)=>{
+    return total + name.length;
+  }, 0); // initial value 0
