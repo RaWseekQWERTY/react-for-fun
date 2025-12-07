@@ -70,3 +70,8 @@ const person3 = {
   //TypeError: Cannot read properties of undefined (reading 'forEach')
   //When you declare an object method using the arrow function, the this keyword refers to the global object, 
   //and the skills property is undefined there. Never use the arrow function when declaring a method.
+
+
+   let age = 10
+   let name = age>10 ? "pedro" : "juan";
+   
