@@ -4,6 +4,7 @@ env
 venv/
 venv
 package.json
+
 # compiled output
 /dist
 /tmp
